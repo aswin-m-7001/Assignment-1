@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Portfolio</title>
+</head>
+<body style="font-family: Arial; background-color: #f5f5f5; margin: 0;">
+
+<!-- Header -->
+<div id="header" style="background-color: lightblue; padding: 15px;">
+    <h1>My Portfolio Website</h1>
+    <ul style="list-style-type:none;">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</div>
+
+<!-- About Section -->
+<div id="about" style="padding: 10px; background-color: white;">
+    <h2>About Me</h2>
+    <img src="images/profile.jpg" alt="My photo" width="150" height="150">
+    <p>Hello! My name is Aswin. I am learning full stack web development.  
+       This is my first html portfolio. I like coding and physics both.</p>
+    <p>Skills I know are: HTML, CSS a little bit, and Javascript (still learning)</p>
+</div>
+
+<!-- Projects Section -->
+<div id="projects" style="padding: 10px; background-color: #e7f0f8;">
+    <h2>My Projects</h2>
+
+    <div>
+        <h3>1. Simple Webpage</h3>
+        <img src="images/project1.png" width=200 alt=project1>
+        <p>This was my first html page with heading and some text with color bg.</p>
+        <a href="#">View project</a>
+    </div>
+
+    <div>
+        <h3>2. Calculator</h3>
+        <img src="images/project2.png" width="200">
+        <p>I made a calculator using html and javascript that can add and subtract numbers.</p>
+    </div>
+
+    <div>
+        <h3>3. Portfolio Page</h3>
+        <p>This same page is my project for the portfolio assignment.</p>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact" style="padding: 10px; background-color: white;">
+    <h2>Contact Me</h2>
+    <p>If you want to send me a message, please write below</p>
+
+    <!-- simple form without boxes -->
+    <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact">
+
+        Name:
+        <input name="name">
+        <br><br>
+
+        Email:
+        <input name="email">
+        <br><br>
+
+        Subject:
+        <input name="subject">
+        <br><br>
+
+        Message:<br>
+        <textarea name="message" rows="4" cols="40"></textarea>
+        <br><br>
+
+        <input type="submit" value="Send">
+    </form>
+</div>
+
+<!-- Footer -->
+<div id="footer" style="background-color: lightgray; text-align: center; padding: 8px;">
+    <p>© 2025 My Portfolio Page | Made by Aswin :)</p>
+</div>
+
+</body>
+</html>
